@@ -587,15 +587,6 @@ vendor/lib64/libsdmextension.so|4b8b779dcecaa8f79df84349177669b6d5589b64
 vendor/lib64/libsdmutils.so|69579e8c82514f0ac9509476ef86b14618fedd77
 vendor/lib64/libtinyxml2_1.so|5499ace9f52b0e625613cfffaa612a62aa4a48ff
 
-# Display calibration - from MIUI
-vendor/etc/SVIConfig.xml|059de71051994f1b24285c5a3b80c79260b4e3a3
-vendor/etc/display/advanced_sf_offsets.xml|de6449ddd7fd4e975ae29ce5aeeda1d6dff275ee
-vendor/etc/mdss_dsi_panel_m7_38_0c_0a_fhdp_video_mi.xml|236c0a3a728f5dc32fbc8c2c7744481ebf947170
-vendor/etc/mdss_dsi_panel_m7_38_0c_0b_fhdp_video_mi.xml|743eae16da9da3810c69bdee35d2dd86eddc72a2
-vendor/etc/qdcm_calib_data_m7_38_0c_0a_video_mode_fhdp_dsi_panel.xml|2b19c131b81b2107ba3131a90c98401c00a0ec1e
-vendor/etc/qdcm_calib_data_m7_38_0c_0b_video_mode_fhdp_dsi_panel.xml|c07d4122541c485765b10d810e99f84886f6d1fa
-
-
 
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
@@ -616,6 +607,16 @@ vendor/lib/libkernelmanager.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libllvm-qgl.so
+
+
+
+# Display calibration - from MIUI
+vendor/etc/SVIConfig.xml|059de71051994f1b24285c5a3b80c79260b4e3a3
+vendor/etc/display/advanced_sf_offsets.xml|de6449ddd7fd4e975ae29ce5aeeda1d6dff275ee
+vendor/etc/mdss_dsi_panel_m7_38_0c_0a_fhdp_video_mi.xml|236c0a3a728f5dc32fbc8c2c7744481ebf947170
+vendor/etc/mdss_dsi_panel_m7_38_0c_0b_fhdp_video_mi.xml|743eae16da9da3810c69bdee35d2dd86eddc72a2
+vendor/etc/qdcm_calib_data_m7_38_0c_0a_video_mode_fhdp_dsi_panel.xml|2b19c131b81b2107ba3131a90c98401c00a0ec1e
+vendor/etc/qdcm_calib_data_m7_38_0c_0b_video_mode_fhdp_dsi_panel.xml|c07d4122541c485765b10d810e99f84886f6d1fa
 
 # Display postprocessing - from LA.VENDOR.13.2.1.r1-06400-DIVAR.0
 vendor/bin/hw/vendor.display.color@1.0-service|f3e4123fa5b9d096c1131866eef46ee92da787b5
