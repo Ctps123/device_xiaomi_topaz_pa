@@ -587,6 +587,27 @@ vendor/lib64/libsdmextension.so|4b8b779dcecaa8f79df84349177669b6d5589b64
 vendor/lib64/libsdmutils.so|69579e8c82514f0ac9509476ef86b14618fedd77
 vendor/lib64/libtinyxml2_1.so|5499ace9f52b0e625613cfffaa612a62aa4a48ff
 
+# scorpion
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/hw/vulkan.adreno.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libadreno_app_profiles.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libgpudataproducer.so
+vendor/lib/libgsl.so
+vendor/lib/libkcl.so
+vendor/lib/libkernelmanager.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib/libllvm-qgl.so
+
 # Display calibration - from MIUI
 vendor/etc/SVIConfig.xml|059de71051994f1b24285c5a3b80c79260b4e3a3
 vendor/etc/display/advanced_sf_offsets.xml|de6449ddd7fd4e975ae29ce5aeeda1d6dff275ee
